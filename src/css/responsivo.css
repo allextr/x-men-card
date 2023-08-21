@@ -1,0 +1,84 @@
+@media (max-width: 500px) {
+    body {
+        background-image: url(xmen/mobile.png);
+    }
+
+    .caixas {
+        display: grid;  
+    }
+
+    .selecionado{
+        width: 100vw;
+        height: 60vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    .descricao p{
+        font-family: Oxanium;
+        font-size: 16px;
+        text-align: center;
+        width: 300px;
+        margin: 0px 0px 0px 50px;
+    }
+
+    .card{
+        width: 80px; 
+        height: 124px;
+    }
+
+    .itens {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50px;
+        height: 100px;
+        justify-content: space-around; 
+    }
+
+    .caixas .selecionar {
+        order: 1;
+    }
+
+    .container-logo{
+        align-items: center;
+    }
+
+    .logo {
+        width: 190px;
+        margin: 10px;
+    }
+
+    .img-grande {
+        width: 350px;
+    }
+
+    .caixa {
+        margin: 0px 0px 50px;
+        padding: 0;
+        width: 100vw;
+        padding: 100px 0px 0px 0px;
+        gap: 5px 10px;
+        justify-content: center;
+    }
+
+    .selecionar {
+        justify-content: center;
+    }
+
+    .selecao {
+        text-align: center;
+        margin: 10px 0px 0px 0px;
+        font-size: 14px;
+    }   
+
+    .borda {
+        border-bottom: 2px solid #47F4FF;
+        width: 350px;
+        justify-content: center;  
+    } 
+}
